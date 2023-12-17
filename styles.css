@@ -1,0 +1,9 @@
+@config "../tailwind.config.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "computerMono";
+    src: url("../resources/OldComputerManualMonospaced-KmlZ.ttf");
+}
