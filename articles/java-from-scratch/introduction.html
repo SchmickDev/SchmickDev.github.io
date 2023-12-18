@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-dark text-gray-light flex flex-col min-h-screen">
+    <header class="flex text-5xl font-computerMono justify-center pb-2">schmickDev</header>
+    <nav class="flex text-xl items-center justify-center md:container md:mx-auto lg:w-2/3 px-16 border-y-2 py-1">
+        <ul>
+            <li class="items-stretch inline justify-center hover:underline hover:text-green">
+                <a href="../../index.html">home</a>
+            </li>
+            <li class="items-stretch inline justify-center px-6 hover:underline hover:text-green">
+                <a href="../../about.html">about</a>
+            </li>
+            <li class="items-stretch inline justify-center hover:underline hover:text-green">
+                <a href="../../articles.html">musings</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="text-3xl font-sans flex pt-4 md:container md:mx-auto lg:w-2/3 px-6">Introduction</h1>
+    <article class="flex-1 block md:container md:mx-auto lg:w-2/3 px-6 pt-2">
+        <p class="pb-4">
+            I am writing this for 2 reasons. First I have found
+            that there is a distinct lack of comprehensive free
+            information about Java that assumes that the person learing
+            does not have any prior knowlege of the platform. All of
+            the material that assumes zero knowlege ends up being quite
+            shallow, and much of the material discussing more in depth
+            topics assumes a great deal of prior knowlege. I would like
+            to attempt to hit the sweet spot with this. Starting from
+            scratch and eventually getting to the point where we are
+            discussing more in depth material. Secondly I am writing
+            this to make my own knowleege more concrete and orgranized.
+            One of the best ways to ensure that you know something is
+            to teach it and that is what I am attempting to do here.
+        </p>
+        <h2 class="text-2xl py-1" font-sans>What About Javas Reputation?</h2>
+        <p class="pb-4">
+            Java has gotten a fairly negative connotation in recent
+            years, especially with newer programmers. I believe this
+            is for a few reasons. The first being that its verbose,
+            sometimes overly so. While this is often seen as a bad thing
+            it is also a strength. Once you understand the basic syntax
+            and some of the core API's (Application Programming Interface)
+            it is rare that you will see a line of code and go "Wait
+            what exactly does that do?" or not be able to look up the
+            documentation and get a good idea of what is going on.
+            This is not neccessarily the case with other languages.
+            The other big reason why I think Java has a more negative
+            connotation when compared to some newer langauges is that
+            it was released in 1995 and to this day is still mostly
+            backwards compatible. This means that it has some baggage
+            and there are probably some design aspects that would
+            be done differently with 25+ more years of experience.
+            Shortcomings which other languages saw and were able to
+            remedy but Java had to find a way to rectify while not
+            breaking existing code. So if I am admitting Java has
+            shorcomings due to this what is the benifit? The backwards
+            compatibility story with Java is extrememly strong. That
+            means the core API's are extremely stable, incrememnting
+            version to version is fairly easy, and code written today
+            is still likely to be able to be run in 20 years on a much
+            newer Java version. This is one of the biggest reasons to
+            choose Java, and businesses have reflected this.
+        </p>
+        <h2 class="text-2xl py-1" font-sans>Why Not Java?</h2>
+        <p class="pb-4">
+            Despite this series assuming that the reader does not know
+            anything about programmin Java is not my first language of
+            choice for teaching new programmers. That would probably go
+            to Python. Java follows a paradigm called OOP (Object
+            Oriented Programming) which requires some ceremony to get
+            simple things up and running. We will dive into OOP and what
+            it means later but learning from scratch will require some
+            hand waving at the beginning. Java is also not the best
+            choice for every problem. Scripting (Short Programs which
+            generally accomplish a single thing or automate something)
+            is not something that Java is strong at. We will use shorter
+            programs to illustrate concepts and learn but typically if
+            I need to write a 100 - 200 line program professionally
+            which is used to accomplish a single task every once in a
+            while Java is not the language that I reach for.
+            Java is also not the right choice if you need ultimate
+            performance. If nano seconds count or memory is extremely
+            confined (such as with many embedded devices) Java probably
+            is not the corect choice.
+        </p>            
+        <h2 class="text-2xl py-1" font-sans>So Why Java?</h2>
+        <p class="pb-4">
+            So what is Java good at. Java is an adequately fast, easy
+            to run language that works well at scale and is widely used.
+            Lets break down what this means. Java is adequately fast.
+            While Java may not be as fast as some other languages like
+            C or C++ (or some of the new languages on the block like
+            Rust or Zig) it is adequately fast. What I mean by that is
+            that with proper programming practices you should not notice
+            a lack of responsiveness for common things. Thats a lot of word
+            salad to say its fast enough for most things. Its easy to
+            run. I have several windows and linux machines at home,
+            and I use a mac professionally. I have never had an issue
+            running Java on any of them. Compared to something like
+            C Java is quite portable between operating systems. One
+            of the original taglines of Java was "Write once, run
+            anywhere" and while there have been reports of this being
+            exagerated, I have found that with modern Java it is
+            almost entirely true. Java works well at scale. This is a
+            pretty simple one but one that some may find controversial
+            so you can take this one as my opinion. Java works well
+            in "large" codebases. I say large in quotes because everything
+            is subjective, but what I mean by this is some of the
+            language design choices when applied correctly make working
+            in a codebase over 50 thousands lines easier. Additionally
+            the tooling is readily available and facilitates this
+            as well. 50 thousand lines may not be large to some and to
+            others may be immeasurable. The number is not what is important
+            the important part is that the design and tooling support
+            working in arbitrarily large codebases. Java is widely used.
+            Java is widely used in professional industry and does not
+            seem to be waning any time soon. Javas period of growth seems
+            to have ended, but its usage does not seem to be declining.
+            I attribut this to its focus on backwards compatibility
+            and stability which make it an attractive choice for a
+            company looking to make decisions about its tech stack.
+        </p>
+        <h2 class="text-2xl py-1" font-sans>How to Use these Articles</h2>
+        <p class="pb-4">
+            Use these to learn from scratch and as you progress these
+            can be used for snippets/examples.
+        </p>            
+        <h2 class="text-2xl py-1" font-sans>Anything Else?</h2>
+        <p class="pb-4">
+            If you are new to Java, but not to programming you may want
+            to skip some of these sections as neccessary. We will also
+            be discussing theory and design somewhat as they are applicable.
+            We may take a detour into other languages from time to time
+            especially when we get to more advanced topics to compare how
+            things are done. Now lets get started.
+        </p>
+    </article>
+    <footer class="text-sm items-center flex-start md:container md:mx-auto lg:w-2/3 px-16 border-t-2 pt-1 pb-6">
+        <p>Copyright schmickDev 2022</p>
+        <p>Contact me:
+            <a class="hover:underline hover:text-green" href="mailto:schmickDev@gmail.com">schmickDev@gmail.com</a>,
+            <a class="hover:underline hover:text-green" href="https://twitter.com/schmickDev">X</a>
+        </p>
+    </footer>
+</body>
+
+</html>
